@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>ABC College</title>
+
+<style>
+
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:#f4f6f9;
+}
+
+
+/* Header */
+
+header{
+
+    background:#12355b;
+    color:white;
+    padding:20px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+}
+
+
+nav a{
+
+    color:white;
+    text-decoration:none;
+    margin:15px;
+    font-size:18px;
+
+}
+
+
+
+/* Hero */
+
+.hero{
+
+    background:linear-gradient(
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5)),
+    url("https://images.unsplash.com/photo-1564981797816-1043664bf78d");
+
+    background-size:cover;
+    height:400px;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    color:white;
+    text-align:center;
+
+}
+
+
+.hero h1{
+
+    font-size:45px;
+
+}
+
+
+
+button{
+
+    background:#ff9800;
+    color:white;
+    border:none;
+    padding:12px 25px;
+    border-radius:5px;
+    cursor:pointer;
+
+}
+
+
+
+
+/* Sections */
+
+
+section{
+
+    padding:30px;
+    text-align:center;
+
+}
+
+
+
+.cards{
+
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+
+}
+
+
+
+.card{
+
+    background:white;
+    width:250px;
+    padding:20px;
+    border-radius:10px;
+
+    box-shadow:0 0 10px gray;
+
+}
+
+
+
+.card:hover{
+
+    transform:scale(1.05);
+
+}
+
+
+
+/* Footer */
+
+footer{
+
+    background:#12355b;
+    color:white;
+    text-align:center;
+    padding:15px;
+
+}
+
+
+</style>
+
+</head>
+
+
+
+<body>
+
+
+<header>
+
+<h1>ABC College</h1>
+
+
+<nav>
+
+<a href="#">Home</a>
+<a href="#about">About</a>
+<a href="#courses">Courses</a>
+<a href="#contact">Contact</a>
+
+</nav>
+
+</header>
+
+
+
+
+<div class="hero">
+
+
+<div>
+
+<h1>Welcome To ABC College</h1>
+
+<p>Education | Innovation | Success</p>
+
+
+<button onclick="message()">
+Apply Now
+</button>
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+<section id="about">
+
+
+<h2>About Our College</h2>
+
+
+<p>
+
+ABC College provides quality education with modern
+technology, experienced staff and excellent facilities.
+
+</p>
+
+
+</section>
+
+
+
+
+
+
+<section id="courses">
+
+
+<h2>Our Courses</h2>
+
+
+<div class="cards">
+
+
+<div class="card">
+
+<h3>B.Tech Computer Science</h3>
+
+<p>AI, Web Development, Programming</p>
+
+</div>
+
+
+
+<div class="card">
+
+<h3>BBA</h3>
+
+<p>Business and Management Studies</p>
+
+</div>
+
+
+
+
+<div class="card">
+
+<h3>BCA</h3>
+
+<p>Computer Applications</p>
+
+</div>
+
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+<section>
+
+
+<h2>Facilities</h2>
+
+
+<div class="cards">
+
+
+<div class="card">
+
+<h3>📚 Library</h3>
+
+<p>Digital Library Facility</p>
+
+</div>
+
+
+<div class="card">
+
+<h3>💻 Computer Lab</h3>
+
+<p>Advanced Systems</p>
+
+</div>
+
+
+
+<div class="card">
+
+<h3>🏫 Campus</h3>
+
+<p>Smart Classrooms</p>
+
+</div>
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+<section id="contact">
+
+
+<h2>Contact Us</h2>
+
+
+<p>
+📍 Chennai, Tamil Nadu
+</p>
+
+
+<p>
+📞 9876543210
+</p>
+
+
+<p>
+✉ abccollege@gmail.com
+</p>
+
+
+
+</section>
+
+
+
+
+
+<footer>
+
+
+<p>
+© 2026 ABC College | All Rights Reserved
+</p>
+
+
+</footer>
+
+
+
+
+
+<script>
+
+
+function message(){
+
+alert("Thank you for your interest! Admission team will contact you.");
+
+}
+
+
+</script>
+
+
+
+</body>
+
+</html>
